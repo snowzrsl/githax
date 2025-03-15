@@ -1,95 +1,41 @@
-# GitHax - Authentication and Monitoring System
+# 🎮 GitHax - Sistema de Monitoramento HaxBall
 
-## 📋 Description
-GitHax is an advanced authentication and monitoring system developed in Python, featuring a modern graphical interface and integrated security features.
+## 📋 O que é o GitHax?
+O GitHax é a evolução do HaxBall Launcher, agora focado em ser uma ferramenta de suporte para campeonatos de HaxBall. Diferente da versão anterior, o GitHax opera de forma independente do aplicativo desktop, eliminando problemas de desempenho e ping que alguns jogadores enfrentavam.
 
-## 🚀 Main Features
-- Modern and intuitive graphical interface
-- Machine-specific unique authentication code system
-- Real-time monitoring of suspicious processes and files
-- Multi-language support (English, Portuguese, and Spanish)
-- Integrated anti-cheat system
-- Encrypted data persistence
-- System tray minimization
+## ⚡ Funcionalidades Principais
+- ✅ Confirmação rápida e intuitiva de partidas
+- 🔒 Sistema único de registro por jogador
+- 🛡️ Monitoramento anti-cheat em tempo real
+- 🤖 Detecção de programas suspeitos (Cheat Engine, macros, AutoHotkey)
+- 🔍 Monitoramento de extensões injetadas
+- 📢 Integração com Discord para alertas e confirmações
 
-## 🔧 System Requirements
-- Windows 10 or higher
-- Python 3.8+
-- Required libraries (see requirements.txt)
+## 💼 Integração com Campeonatos
+### Campeonatos Parceiros
+- Acesso gratuito ao sistema
+- Suporte prioritário
+- Integração personalizada
 
-## 📦 Dependencies
-```
-customtkinter
-psutil
-pywin32
-cryptography
-requests
-pillow
-watchdog
-pystray
-rarfile
-py7zr
-```
+### Campeonatos não Parceiros
+- Taxa de R$10,00 a cada 20 jogadores registrados
+- Valor sujeito a alterações conforme demanda
 
-## 🛠️ Installation
-1. Clone the repository or download the files
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3. Run the program:
-```bash
-python main.py
-```
+## 🔒 Privacidade e Segurança
+### Dados Coletados
+- IP codificado e criptografado (usado apenas para autenticação)
+- Registros de arquivos suspeitos (sem dados pessoais)
+- Monitoramento focado apenas em atividades relacionadas a cheats
 
-## 🔐 Security Features
-- Detection and blocking of known cheats and hacks
-- Suspicious file monitoring
-- Protection against unauthorized closure
-- Real-time Discord alerts
-- Sensitive data encryption
-- Windows registry credential backup
+### O que NÃO coletamos
+- Dados pessoais
+- Informações de navegação
+- Arquivos pessoais
+- IPs em formato original
 
-## 🌐 Language Support
-- 🇺🇸 English (US)
-- 🇧🇷 Portuguese (BR)
-- 🇪🇸 Spanish
+## 📥 Download e Versão
+- Versão atual: 1.0.0
+- Desenvolvido por: Snow
 
-## ⚙️ Configuration
-The system uses Discord webhooks for notifications. Configure the webhooks in the `main.py` file:
-- WEBHOOK_CONFIRM: For authentication confirmations
-- WEBHOOK_ALERT: For security alerts
-
-## 🔍 Monitoring
-The system constantly monitors:
-- Suspicious processes
-- Files with specific extensions
-- Cheat attempts
-- Suspicious browser extensions
-- Compressed files with suspicious content
-
-## 🚫 Anti-Cheat
-Detects and blocks:
-- Cheat Engine and variants
-- AutoHotkey scripts
-- Known trainers and hacks
-- DLL injectors
-- Macros and bots
-
-## 📝 Logs and Alerts
-- Real-time Discord alerts
-- Violation attempt logging
-- Suspicious file monitoring
-- Authentication notifications
-
-## ⚠️ Notes
-- The program cannot be closed normally (security measure)
-- Minimizes to system tray when closure is attempted
-- Requires administrator permissions for some features
-- Maintains credential backup in Windows registry
-
-## 🤝 Contributing
-Contributions are welcome! Please read the contribution guidelines before submitting pull requests.
-
-## 📄 License
-This project is under the MIT License. See the LICENSE file for more details. 
+## 📞 Contato
+Para parcerias ou dúvidas sobre integração, entre em contato via mensagem privada no Discord >> ysnowzz. 
