@@ -1,4 +1,4 @@
-# 🎮 GitHax - Sistema de Monitoramento HaxBall
+# 🎮 GitHax - Suporte para campeonatos
 
 ## 📋 O que é o GitHax?
 O GitHax é a evolução do HaxBall Launcher, agora focado em ser uma ferramenta de suporte para campeonatos de HaxBall. Diferente da versão anterior, o GitHax opera de forma independente do aplicativo desktop, eliminando problemas de desempenho e ping que alguns jogadores enfrentavam.
