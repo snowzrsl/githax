@@ -35,7 +35,7 @@ O GitHax é a evolução do HaxBall Launcher, agora focado em ser uma ferramenta
 
 ## 📥 Download e Versão
 - Versão atual: 1.0.0
-- Desenvolvido por: Snow
+- Desenvolvido por: snow
 
 ## 📞 Contato
 Para parcerias ou dúvidas sobre integração, entre em contato via mensagem privada no Discord >> ysnowzz. 
